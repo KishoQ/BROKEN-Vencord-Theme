@@ -1,0 +1,52 @@
+/**
+ * @name BROKEN - Neutron
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author BROKEN - @reshattered
+ * @invite tU2aFhr
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ * @BDEditor Neutron
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@100;300;400;500;700&display=swap');
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+/*@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); - Old repository not available anymore*/
+@import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
+
+:root {
+  --backgroundImage: url('https://i.imgur.com/mPWKl0x.gif');
+  --backgroundColor: #050505;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 25px;
+  --backgroundOpacity: 0.5;
+  --homeImage: url('https://i.imgur.com/jh45fJQ.gif');
+  --homeImageSize: cover;
+  --themeColor1: #1A1A1A;
+  --themeColor2: #4600C4;
+  --customFont: Pontano Sans;
+  --backgroundCode: rgba(0 0 0 /.5);
+  --backgroundName: rgba(0 0 0 /.5);
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #FFFFFF;
+  --rs-idle-color: #767676;
+  --rs-dnd-color: #4600C4;
+  --rs-offline-color: #151515;
+  --rs-streaming-color: #DB2013;
+  --rs-phone-visible: block;
+  --custom-context-menu-text-color: color-mix(in oklab, var(--neutral-34) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+  --custom-settings-menu-myaccount-background-color: #1a1a1a00;
+}
+
+/* Any custom CSS below here */
+
+:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: var(--custom-context-menu-text-color);}
+.field__1fed1{background-color: var(--custom-settings-menu-myaccount-background-color);}
