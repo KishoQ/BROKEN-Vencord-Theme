@@ -15,14 +15,16 @@
 @import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
 
 :root {
-  --backgroundImage: url('https://i.imgur.com/mPWKl0x.gif');
+  /*--backgroundImage: url('https://i.imgur.com/mPWKl0x.gif'); - Old Gif location*/
+  --backgroundImage: url('https://i.imgur.com/sJfpSRs.gif');
   --backgroundColor: #050505;
   --backgroundSize: cover;
   --backgroundPosition: center;
   --backgroundRepeat: no-repeat;
   --backgroundBlur: 25px;
   --backgroundOpacity: 0.5;
-  --homeImage: url('https://i.imgur.com/jh45fJQ.gif');
+  /*--homeImage: url('https://i.imgur.com/jh45fJQ.gif'); - Old Gif location*/
+  --homeImage: url('https://i.imgur.com/NkLiIGx.gif');
   --homeImageSize: cover;
   --themeColor1: #1A1A1A;
   --themeColor2: #4600C4;
@@ -44,9 +46,69 @@
   --rs-phone-visible: block;
   --custom-context-menu-text-color: color-mix(in oklab, var(--neutral-34) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
   --custom-settings-menu-myaccount-background-color: #1a1a1a00;
+  --custom-link-color: #5900ff;
 }
 
 /* Any custom CSS below here */
 
 :where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: var(--custom-context-menu-text-color);}
 .field__1fed1{background-color: var(--custom-settings-menu-myaccount-background-color);}
+.fileWrapper__0ccae, .embedFull__623de, .wrapper_d5f3cd { background: var(--custom-settings-menu-myaccount-background-color);}
+
+
+.fileWrapper__0ccae > *, .wrapper_d5f3cd > * {
+  z-index: 10;
+  position: relative;
+}
+
+.nonMediaMosaicItem__06ab4 {
+  outline: 1px solid var(--background-secondary);
+  right: -323px;
+  top: -67px;
+  width: 102px;
+  height: 60px;
+}
+
+.hoverButton__06ab4 {
+  color: var(--custom-link-color);
+  cursor: pointer;
+  /*padding: 6px;*/
+  padding-top: 20px;
+  padding-right: 41px;
+  padding-bottom: 20px;
+  padding-left: 41px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+a {
+  color: var(--custom-link-color);
+}
+
+:where(.visual-refresh) .container__87bf1.checked__87bf1 {
+  border-color: var(--custom-link-color);
+}
+
+
+.anchor_edefb8 {
+  color: var(--custom-link-color);
+}
+
+
+
+
+
+.hoverButtonGroup__06ab4 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+  background-color: var(--themeColor2);
+  border-color: var(--custom-link-color);
+  color: var(--white);
+}

@@ -1,0 +1,236 @@
+/*
+ * @name AccentColor
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replaces the Blurple accent color with one of your choice.
+ * @license MIT
+ * @version 1.0.2
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
+ :root {
+  --brand-h: 249;
+  --brand-s: 22%;
+  --brand-l: 50%;
+}
+:root,
+.theme-dark {
+  /* New brand variables */
+  --brand-100: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (97.6% - 32.5%)) / 100%
+  );
+  --brand-130: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (95.5% - 32.5%)) / 100%
+  );
+  --brand-160: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (92.9% - 32.5%)) / 100%
+  );
+  --brand-200: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (90% - 32.5%)) / 100%
+  );
+  --brand-230: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (87.1% - 32.5%)) / 100%
+  );
+  --brand-260: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (83.7% - 32.5%)) / 100%
+  );
+  --brand-300: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (78.8% - 32.5%)) / 100%
+  );
+  --brand-330: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (73.3% - 32.5%)) / 100%
+  );
+  --brand-345: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (67.5% - 32.5%)) / 100%
+  );
+  --brand-360: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (61.2% - 32.5%)) / 100%
+  );
+  --brand-400: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (52.9% - 32.5%)) / 100%
+  );
+  --brand-430: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (44.9% - 32.5%)) / 100%
+  );
+  --brand-460: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (38% - 32.5%)) / 100%
+  );
+  --brand-500: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 100%
+  );
+  --brand-530: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (38% - 32.5%)) / 100%
+  );
+  --brand-560: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (44.9% - 32.5%)) / 100%
+  );
+  --brand-600: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (52.9% - 32.5%)) / 100%
+  );
+  --brand-630: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (61.2% - 32.5%)) / 100%
+  );
+  --brand-645: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (67.5% - 32.5%)) / 100%
+  );
+  --brand-660: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (73.3% - 32.5%)) / 100%
+  );
+  --brand-700: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (78.8% - 32.5%)) / 100%
+  );
+  --brand-730: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (83.7% - 32.5%)) / 100%
+  );
+  --brand-760: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (87.1% - 32.5%)) / 100%
+  );
+  --brand-800: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (90% - 32.5%)) / 100%
+  );
+  --brand-830: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (92.9% - 32.5%)) / 100%
+  );
+  --brand-860: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (95.5% - 32.5%)) / 100%
+  );
+  --brand-900: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) - (97.6% - 32.5%)) / 100%
+  );
+
+  /* Opaque brand variables */
+  --brand-05a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 05%
+  );
+  --brand-10a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 10%
+  );
+  --brand-15a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 15%
+  );
+  --brand-20a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 20%
+  );
+  --brand-25a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 25%
+  );
+  --brand-30a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 30%
+  );
+  --brand-35a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 35%
+  );
+  --brand-40a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 40%
+  );
+  --brand-45a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 45%
+  );
+  --brand-50a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 50%
+  );
+  --brand-55a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 55%
+  );
+  --brand-60a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 60%
+  );
+  --brand-65a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 65%
+  );
+  --brand-70a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 70%
+  );
+  --brand-75a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 75%
+  );
+  --brand-80a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 80%
+  );
+  --brand-85a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 85%
+  );
+  --brand-90a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 90%
+  );
+  --brand-95a: hsl(
+    var(--brand-h) var(--brand-s)
+      calc(var(--brand-l) + (32.5% - 32.5%)) / 95%
+  );
+
+  /* Old brand varibales */
+  --brand-experiment-05a: var(--brand-05a);
+  --brand-experiment-10a: var(--brand-10a);
+  --brand-experiment-15a: var(--brand-15a);
+  --brand-experiment-20a: var(--brand-20a);
+  --brand-experiment-25a: var(--brand-25a);
+  --brand-experiment-30a: var(--brand-30a);
+  --brand-experiment-35a: var(--brand-35a);
+  --brand-experiment-40a: var(--brand-40a);
+  --brand-experiment-45a: var(--brand-45a);
+  --brand-experiment-50a: var(--brand-50a);
+  --brand-experiment-55a: var(--brand-55a);
+  --brand-experiment-60a: var(--brand-60a);
+  --brand-experiment-65a: var(--brand-65a);
+  --brand-experiment-70a: var(--brand-70a);
+  --brand-experiment-75a: var(--brand-75a);
+  --brand-experiment-80a: var(--brand-80a);
+  --brand-experiment-85a: var(--brand-85a);
+  --brand-experiment-90a: var(--brand-90a);
+  --brand-experiment-95a: var(--brand-95a);
+
+  --text-brand: var(--brand-500);
+  --mention-background: var(--brand-30a);
+
+  /* Scrollbars */
+  --scrollbar-auto-thumb: var(--brand-500);
+  --scrollbar-auto-track: var(--brand-25a);
+  --scrollbar-thin-thumb: var(--brand-500);
+  --scrollbar-thin-track: transparent;
+}

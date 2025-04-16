@@ -26,3 +26,53 @@ neutron8.css:3473
 
 
 New Radial Status Repository here: https://github.com/DiscordStyles/RadialStatus/tree/master
+
+
+
+
+Download background fix not black block anymore:
+.fileWrapper__0ccae, .embedFull__623de, .wrapper_d5f3cd { background: var(--custom-settings-menu-myaccount-background-color);}
+
+
+
+download button fix:
+
+.nonMediaMosaicItem__06ab4 {
+    outline: 1px solid var(--background-secondary);
+    right: 2px;
+    top: 2px;
+    width: 102px;
+    height: 71px;
+}
+
+
+.fileWrapper__0ccae > *, .wrapper_d5f3cd > * {
+    z-index: 0;
+    position: relative;
+}
+
+
+
+.nonMediaMosaicItem__06ab4 {
+    outline: 1px solid var(--background-secondary);
+    right: -325px;
+    top: -68px;
+    width: 102px;
+    height: 62px;
+}
+
+
+
+
+
+button actually inner:
+.hoverButton__06ab4 {
+    color: var(--interactive-normal);
+    cursor: pointer;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}

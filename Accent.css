@@ -1,0 +1,281 @@
+/*
+ * @name AccentColor
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replaces the Blurple accent color with one of your choice.
+ * @license MIT
+ * @version 1.0.2
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
+ :root {
+  /*--brand-500: hsl(249, 22%, 50%);   #5700e2;*/
+  --brand-500: #5900ff;;
+
+}
+:root,
+.theme-dark {
+  /* New brand variables */
+  --brand-100: color-mix(
+    in srgb,
+    #fff calc(97.6% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-130: color-mix(
+    in srgb,
+    #fff calc(95.5% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-160: color-mix(
+    in srgb,
+    #fff calc(92.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-200: color-mix(
+    in srgb,
+    #fff calc(90% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-230: color-mix(
+    in srgb,
+    #fff calc(87.1% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-260: color-mix(
+    in srgb,
+    #fff calc(83.7% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-300: color-mix(
+    in srgb,
+    #fff calc(78.8% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-330: color-mix(
+    in srgb,
+    #fff calc(73.3% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-345: color-mix(
+    in srgb,
+    #fff calc(67.5% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-360: color-mix(
+    in srgb,
+    #fff calc(61.2% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-400: color-mix(
+    in srgb,
+    #fff calc(52.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-430: color-mix(
+    in srgb,
+    #fff calc(44.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-460: color-mix(
+    in srgb,
+    #fff calc(38% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-530: color-mix(
+    in srgb,
+    #000 calc(38% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-560: color-mix(
+    in srgb,
+    #000 calc(44.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-600: color-mix(
+    in srgb,
+    #000 calc(52.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-630: color-mix(
+    in srgb,
+    #000 calc(61.2% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-645: color-mix(
+    in srgb,
+    #000 calc(67.5% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-660: color-mix(
+    in srgb,
+    #000 calc(73.3% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-700: color-mix(
+    in srgb,
+    #000 calc(78.8% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-730: color-mix(
+    in srgb,
+    #000 calc(83.7% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-760: color-mix(
+    in srgb,
+    #000 calc(87.1% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-800: color-mix(
+    in srgb,
+    #000 calc(90% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-830: color-mix(
+    in srgb,
+    #000 calc(92.9% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-860: color-mix(
+    in srgb,
+    #000 calc(95.5% - 32.5%),
+    var(--brand-500)
+  );
+  --brand-900: color-mix(
+    in srgb,
+    #000 calc(97.6% - 32.5%),
+    var(--brand-500)
+  );
+
+  /* Opaque brand variables */
+  --brand-05a: color-mix(
+    in srgb,
+    var(--brand-500) 5%,
+    transparent
+  );
+  --brand-10a: color-mix(
+    in srgb,
+    var(--brand-500) 10%,
+    transparent
+  );
+  --brand-15a: color-mix(
+    in srgb,
+    var(--brand-500) 15%,
+    transparent
+  );
+  --brand-20a: color-mix(
+    in srgb,
+    var(--brand-500) 20%,
+    transparent
+  );
+  --brand-25a: color-mix(
+    in srgb,
+    var(--brand-500) 25%,
+    transparent
+  );
+  --brand-30a: color-mix(
+    in srgb,
+    var(--brand-500) 30%,
+    transparent
+  );
+  --brand-35a: color-mix(
+    in srgb,
+    var(--brand-500) 35%,
+    transparent
+  );
+  --brand-40a: color-mix(
+    in srgb,
+    var(--brand-500) 40%,
+    transparent
+  );
+  --brand-45a: color-mix(
+    in srgb,
+    var(--brand-500) 45%,
+    transparent
+  );
+  --brand-50a: color-mix(
+    in srgb,
+    var(--brand-500) 50%,
+    transparent
+  );
+  --brand-55a: color-mix(
+    in srgb,
+    var(--brand-500) 55%,
+    transparent
+  );
+  --brand-60a: color-mix(
+    in srgb,
+    var(--brand-500) 60%,
+    transparent
+  );
+  --brand-65a: color-mix(
+    in srgb,
+    var(--brand-500) 65%,
+    transparent
+  );
+  --brand-70a: color-mix(
+    in srgb,
+    var(--brand-500) 70%,
+    transparent
+  );
+  --brand-75a: color-mix(
+    in srgb,
+    var(--brand-500) 75%,
+    transparent
+  );
+  --brand-80a: color-mix(
+    in srgb,
+    var(--brand-500) 80%,
+    transparent
+  );
+  --brand-85a: color-mix(
+    in srgb,
+    var(--brand-500) 85%,
+    transparent
+  );
+  --brand-90a: color-mix(
+    in srgb,
+    var(--brand-500) 90%,
+    transparent
+  );
+  --brand-95a: color-mix(
+    in srgb,
+    var(--brand-500) 95%,
+    transparent
+  );
+
+  /* Old brand varibales */
+  --brand-experiment-05a: var(--brand-05a);
+  --brand-experiment-10a: var(--brand-10a);
+  --brand-experiment-15a: var(--brand-15a);
+  --brand-experiment-20a: var(--brand-20a);
+  --brand-experiment-25a: var(--brand-25a);
+  --brand-experiment-30a: var(--brand-30a);
+  --brand-experiment-35a: var(--brand-35a);
+  --brand-experiment-40a: var(--brand-40a);
+  --brand-experiment-45a: var(--brand-45a);
+  --brand-experiment-50a: var(--brand-50a);
+  --brand-experiment-55a: var(--brand-55a);
+  --brand-experiment-60a: var(--brand-60a);
+  --brand-experiment-65a: var(--brand-65a);
+  --brand-experiment-70a: var(--brand-70a);
+  --brand-experiment-75a: var(--brand-75a);
+  --brand-experiment-80a: var(--brand-80a);
+  --brand-experiment-85a: var(--brand-85a);
+  --brand-experiment-90a: var(--brand-90a);
+  --brand-experiment-95a: var(--brand-95a);
+
+  --text-brand: var(--brand-500);
+  --mention-background: var(--brand-30a);
+
+  /* Scrollbars */
+  --scrollbar-auto-thumb: var(--brand-500);
+  --scrollbar-auto-track: color-mix(
+    in srgb,
+    var(--brand-500) 25%,
+    transparent
+  );
+  --scrollbar-thin-thumb: var(--brand-500);
+  --scrollbar-thin-track: transparent;
+}
